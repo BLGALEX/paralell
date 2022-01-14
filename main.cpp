@@ -2,15 +2,11 @@
 #include <cstdio>
 #include <thread>
 #include <vector>
-#include <mutex>
 #include <atomic>
 #include <omp.h>
 #include <iostream>
-#include <windows.h>
 #include <bits/stdc++.h>
 #include "reduce_par.h"
-#include <numeric>
-#include <memory>
 
 
 constexpr std::size_t CACHE_LINE = 64;
