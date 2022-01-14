@@ -13,7 +13,7 @@ constexpr std::size_t CACHE_LINE = 64;
 
 typedef float (*f_t) (float);
 
-#define n 100000000u
+#define n 50000000u
 
 typedef struct element_t_
 {
